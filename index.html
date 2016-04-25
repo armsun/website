@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/animate.css">
-    <link rel="stylesheet" href="font-awesome-4.6.1/css/font-awesome.css">
+   
+    <link rel="stylesheet" type="text/css" href="style/animate.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.6.1/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+     <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>Շեն Տուն Արմավրի</title>
 </head>
 
@@ -44,9 +47,14 @@
                 </li>
             </ul>
         </nav>
-
+        <div class="carusel" id="my-carusel">
+            <div><img src="img/img1.jpg" alt="image home"></div>
+            <div><img src="img/img2.jpg" alt="image home"></div>
+            <div><img src="img/img3.jpg" alt="image home"></div>
+            <div><img src="img/img4.jpg" alt="image home"></div>
+        </div>
     </div>
-
+    
     <main>
         <p> <a href="#" class="animated pulse"> hello wrorld</a> </p>
     </main>
@@ -56,8 +64,8 @@
             <div class="footer-cell">
                 <ul>
                     <li>item1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
+                    <li>item2</li>
+                    <li>item3</li>
                 </ul>
             </div>
             <div class="footer-cell">
@@ -81,17 +89,17 @@
         <div id="footer-bottom">
             <ul class="social-icons">
                 <li>
-                    <a href="">
+                    <a href="https://www.facebook.com/armsun" target="_blank">
                         <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://twitter.com/armsun" target="_blank">
                         <i class="fa fa-twitter-square fa-2x " aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.youtube.com/" target="_blank">
                         <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
                     </a>
                 </li>
@@ -99,7 +107,7 @@
 
             <ul class="copyright">
                 <li>
-                    <small> &copy;Շեն տուն Արմավիր -
+                    <small> &copy;Շեն Տուն Արմավիր -
                         <time datetime="4/26/2016">
                         2016
                     </time>
@@ -112,11 +120,10 @@
                     </small>
                 </li>
             </ul>
-
-
         </div>
         <script src="script/jquery-2.2.3.js"></script>
-        <script src="script/app.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="script/app.js"></script>
     </footer>
 </body>
 
