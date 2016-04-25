@@ -1,6 +1,8 @@
 body{
     display: block;
     background-color: #e9e9e9;
+    max-width: 1366px;
+    margin: 0;
 }
 #logo{
     float:left;
@@ -12,22 +14,44 @@ body{
 header{
     height: 250px;
     background-image: url('../img/header_img.jpg');
+    /*background-repeat:  no-repeat;
+   */
+ }
+ 
+ #sticker{
+    float: right;
+}
+ 
+ #sale-img{
+     margin-right: 35px;
+     height: 150px;
+     width: 50px;
+     animation-duration: 10s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+     
  }
  #main-nav{
-     clear:both;
+    clear:both;
+    max-width: 950px;
+    background: #ddd;
+    margin: 0 auto;
     
      
  }
 #nav-ul{
     display: block;
-    margin: 0;
+    margin: 0px;
     padding: 0;
-     list-style-type: none;
-      overflow: hidden;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
 }
 #nav-ul>li{
+    margin: 5px;
    
-    float:left;
+   display: inline-block;
+   
 }
 #nav-ul>li>a{
     display: block;
@@ -35,12 +59,25 @@ header{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
+     
+     
   
 }
 #nav-ul>li>a:hover{
     background: #eee;
 }     
 
-#sticker{
-    float: right;
+
+/* footer */
+footer{
+    clear:both;
+    max-width: 950px;
+    background: #ddd;
+    margin: 0 auto;
+    border: 5 solid red;
 }
+.footer-cell{
+    display: table-cell;
+}
+
