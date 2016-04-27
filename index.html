@@ -9,8 +9,10 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
-       
+    <link rel="stylesheet" type="text/css" href="style/form.css">
+    
+    
+
 
     <title>Շեն Տուն Արմավրի</title>
 </head>
@@ -148,6 +150,7 @@
             <div class="footer-cell">
                 <div id="Map"></div>
             </div>
+            <div class="clearfix"></div>
         </div>
         <div id="footer-bottom">
             <ul class="social-icons">
@@ -194,11 +197,10 @@
                     <i class="fa fa-times-circle-o fa-2x" aria-hidden="true" id="close" onclick="div_hide()"></i>
                     <h2>Contact Us</h2>
                     <hr>
-                    <div>
-                        <i class="fa fa-user fa-2x" aria-hidden="true"></i>
-                        <input id="cname" name="cname" placeholder="Name" type="text">
-                    </div>
                     
+                        <input id="cname" class="cuser" name="cname" placeholder="Name" type="text">
+                    
+
                     <input id="cemail" name="cemail" placeholder="Email" type="text">
                     <textarea id="cmsg" name="cmessage" placeholder="Message"></textarea>
                     <a href="javascript:check_empty()" id="submit">Send</a>
@@ -207,7 +209,7 @@
 
 
         </div>
-        
+
         <div>
             <button class="fixed" id="popup" onclick="showpopup()">Contact us</button>
         </div>
@@ -217,7 +219,7 @@
         <script src="script/jquery-2.2.3.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="script/app.js"></script>
-
+       
     </footer>
 
 
