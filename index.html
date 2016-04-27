@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
+       
 
     <title>Շեն Տուն Արմավրի</title>
 </head>
@@ -105,6 +107,7 @@
             </aside>
         </div>
     </div>
+
     <footer id="p-footer">
         <div id="footer-top">
 
@@ -130,8 +133,8 @@
                     <li><a href="http://idealsystem.am" target="_blank">Ideal</a></li>
                     <li><a href="#">Nortun.am</a></li>
                     <li><a href="http://www.shinarar.am/am/company/SARD" target="_blank">Sard</a></li>
-                </ul>
 
+                </ul>
             </div>
 
             <div class="footer-cell">
@@ -181,11 +184,44 @@
                 </li>
             </ul>
         </div>
+
+        <script type="text/javascript" src="script/form.js"></script>
+        <div id="popupform">
+
+            <div id="popupContact">
+
+                <form action="#" id="form" method="post" name="form">
+                    <i class="fa fa-times-circle-o fa-2x" aria-hidden="true" id="close" onclick="div_hide()"></i>
+                    <h2>Contact Us</h2>
+                    <hr>
+                    <div>
+                        <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+                        <input id="cname" name="cname" placeholder="Name" type="text">
+                    </div>
+                    
+                    <input id="cemail" name="cemail" placeholder="Email" type="text">
+                    <textarea id="cmsg" name="cmessage" placeholder="Message"></textarea>
+                    <a href="javascript:check_empty()" id="submit">Send</a>
+                </form>
+            </div>
+
+
+        </div>
+        
+        <div>
+            <button class="fixed" id="popup" onclick="showpopup()">Contact us</button>
+        </div>
+
+
         <script src="http://maps.googleapis.com/maps/api/js"></script>
         <script src="script/jquery-2.2.3.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="script/app.js"></script>
+
     </footer>
+
+
+
 </body>
 
 </html>
